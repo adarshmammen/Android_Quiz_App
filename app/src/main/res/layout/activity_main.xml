@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/quiz"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q1"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ans1"
+            android:layout_width="48sp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxEms="4"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="@string/q2"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pride" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flock" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Herd" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Congress" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="@string/q3"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <CheckBox
+                android:id="@+id/ans3_op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1902" />
+
+            <CheckBox
+                android:id="@+id/ans3_op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1914" />
+
+            <CheckBox
+                android:id="@+id/ans3_op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1939" />
+
+            <CheckBox
+                android:id="@+id/ans3_op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1952" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            android:text="@string/q4"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:text="1923" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:text="1928" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:text="1954" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:text="1969" />
+        </RadioGroup>
+
+        <Button
+            android:onClick="clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:text="@string/submit"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>

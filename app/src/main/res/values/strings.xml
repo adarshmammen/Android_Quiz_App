@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="quiz">QUIZ</string>
+    <string name="q1">What is the square root of 121?</string>
+    <string name="q2">What is a group of Lions called?</string>
+    <string name="q3">Check the boxes that correspond to the years of the world wars.</string>
+    <string name="q4">Which year did man land on the moon?</string>
+    <string name="submit">SUBMIT</string>
+
+</resources>
